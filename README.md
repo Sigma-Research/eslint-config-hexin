@@ -1,6 +1,6 @@
 # 安装依赖
 ```shell
-  npm install git+https://git@github.com/Sigma-Research/eslint-config-hexin
+  npm install git+https://git@github.com/Sigma-Research/eslint-config-hexin#75bc0a86c03054768b311599eaf1d38d72ad8558
 ```
 
 # 使用示例
