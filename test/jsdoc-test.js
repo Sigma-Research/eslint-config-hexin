@@ -1,14 +1,24 @@
-function foo() {
-  return 1;
-}
+/**
+ * @param {number} num 数
+ * @returns {number} 1
+ */
+const foo = (num) => 1;
 
 const obj = {
   b: 1,
-  a: 3
+  a: 3,
 };
-console.log("obj")
+
+console.log('obj');
 foo();
 
-const obj2 = {
-  a:1,
-  b:2,c:3,V:4,sd:5,sadasdasdasdjagsjhbhahjdhs:9, lSAJDKJHJBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjsadhksdbv:'8999fsdfsdfsdfsdfsdfdddddddddddddddddddddddddddd999999999'}
+let obj2;
+obj2 = {
+  V: 4,
+  a: 1,
+  b: 2,
+  c: 3,
+  lSAJDKJHJBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjsadhksdbv: '8999fsdfsdfsdfsdfsdfdddddddddddddddddddddddddddd999999999',
+  sadasdasdasdjagsjhbhahjdhs: 9,
+  sd: 5,
+};
