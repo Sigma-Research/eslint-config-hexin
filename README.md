@@ -28,7 +28,14 @@ module.exports = {
 **2. 如果存在和prettier冲突的情况:**
 1. 安装```eslint-config-prettier```和```eslint-plugin-prettier```, 在.eslintrc.js中```extends```中添加```plugin:prettier/recommended```(对于eslint有版本要求)<br>
 2. 手动在rules字段中重写冲突的规则<br>
-
+**3. 如果项目使用ESModule**
+在.eslintrc.js(配置文件)中加上
+```js
+ parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+  },
+```
 
 # 持续维护
 
