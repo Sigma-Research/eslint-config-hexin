@@ -38,7 +38,7 @@ module.exports = {
 ```
 
 # 持续维护
-可以使用这个插件自动将eslint提示转为中文
+可以使用这个插件自动将eslint提示转为中文<br>
 ![image](https://github.com/Sigma-Research/eslint-config-hexin/assets/138546641/92b2ac3b-3a9c-4499-a12f-207b6780173e)
 
 
